@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shot_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截取除了导航栏之外的屏幕" />
+
+    <Button
+        android:id="@+id/shot_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截取某个控件或者区域" />
+
+
+    <Button
+        android:id="@+id/shot_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截取带导航栏的整个屏幕" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Normal"
+            android:textColor="#ff0000"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/shot_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截取带导航栏的整个屏幕" />
+</LinearLayout>
